@@ -1,0 +1,15 @@
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --stone-color1: hsl(30, 54%, 90%);
+    --stone-color2: hsl(30, 18%, 87%);
+    --stone-color3: hsl(30, 10%, 34%);
+    --stone-color4: hsl(24, 5%, 18%);
+    --brown-color: hsl(14, 45%, 36%);
+    --rose-color1: hsl(332, 51%, 32%);
+    --rose-color2: hsl(330, 100%, 98%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
