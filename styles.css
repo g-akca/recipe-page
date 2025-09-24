@@ -30,7 +30,7 @@ body {
     border-radius: 15px;
 }
 
-#recipe-container h1, #ingredients h2, #instructions h2, #nutrition h2 {
+.main-heading {
     font-family: 'Young Serif', serif;
     font-weight: 400;
 }
