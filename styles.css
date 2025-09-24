@@ -29,3 +29,12 @@ body {
     width: 100%;
     border-radius: 15px;
 }
+
+#recipe-container h1, #ingredients h2, #instructions h2, #nutrition h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+#recipe-container h1 {
+    font-size: 2.6em;
+}
