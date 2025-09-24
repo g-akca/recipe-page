@@ -16,12 +16,13 @@ body {
     line-height: 1.5em;
     background-color: var(--stone-color1);
     padding: 120px 30px;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
 
 #recipe-container {
-    width: 650px;
+    max-width: 650px;
     background-color: var(--white-color);
     padding: 40px;
     border-radius: 30px;
@@ -46,7 +47,29 @@ body {
 #recipe-container h1 {
     font-size: 2.5em;
     color: var(--stone-color4);
-    margin: 45px 0 32px;
+    margin: 36px 0 25px;
+    line-height: 1em;
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        padding: 0;
+    }
+
+    #recipe-container, #recipe-container img {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    #recipe-main {
+        padding: 32px;
+    }
+
+    #recipe-container h1 {
+        font-size: 2.3em;
+        margin: 8px 0 28px;
+    }
 }
 
 #prep-time {
