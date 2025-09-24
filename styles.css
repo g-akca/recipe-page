@@ -85,7 +85,7 @@ body {
 }
 
 hr {
-    border: var(--stone-color2) 1px solid;
+    border-top: var(--stone-color2) 1px solid;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -95,4 +95,37 @@ hr {
 #instructions li::marker {
     color: var(--brown-color);
     font-weight: 700;
+}
+
+#nutrition table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#nutrition th {
+    font-weight: 400;
+    padding-left: 32px;
+    width: 50%;
+}
+
+#nutrition td {
+    font-weight: 600;
+    color: var(--brown-color);
+    padding-left: 12px;
+}
+
+#nutrition th, #nutrition td {
+    border-bottom: var(--stone-color2) 1px solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#nutrition tr:first-child th, #nutrition tr:first-child td {
+    padding-top: 8px;
+}
+
+#nutrition tr:last-child th, #nutrition tr:last-child td {
+    border-bottom: none;
+    padding-bottom: 0;
 }
