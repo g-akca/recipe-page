@@ -61,11 +61,11 @@ body {
     font-size: 1.25em;
 }
 
-#prep-time ul, #ingredients ul {
+#prep-time ul, #ingredients ul, #instructions ol {
     padding-left: 22px;
 }
 
-#prep-time li, #ingredients li {
+#prep-time li, #ingredients li, #instructions li {
     margin-bottom: 9px;
     padding-left: 18px;
 }
@@ -90,4 +90,9 @@ hr {
     border-left: none;
     border-right: none;
     margin: 32px 0;
+}
+
+#instructions li::marker {
+    color: var(--brown-color);
+    font-weight: 700;
 }
