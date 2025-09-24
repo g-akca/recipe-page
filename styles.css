@@ -13,7 +13,19 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
     background-color: var(--stone-color1);
-    padding: 125px;
+    padding: 125px 30px;
     display: flex;
     justify-content: center;
+}
+
+#recipe-container {
+    width: 700px;
+    background-color: var(--white-color);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+#recipe-container img {
+    width: 100%;
+    border-radius: 15px;
 }
