@@ -15,22 +15,22 @@ body {
     color: var(--stone-color3);
     line-height: 1.5em;
     background-color: var(--stone-color1);
-    padding: 120px 30px;
+    padding: 125px 29px;
     margin: 0;
     display: flex;
     justify-content: center;
 }
 
 #recipe-container {
-    max-width: 650px;
+    max-width: 655px;
     background-color: var(--white-color);
     padding: 40px;
-    border-radius: 30px;
+    border-radius: 22px;
 }
 
 #recipe-container img {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 
 .main-heading {
@@ -40,14 +40,14 @@ body {
 
 .main-heading:not(h1) {
     color: var(--brown-color);
-    font-size: 1.8em;
-    margin-top: 38px;
+    font-size: 1.75em;
+    margin-top: 35px;
 }
 
 #recipe-container h1 {
     font-size: 2.5em;
     color: var(--stone-color4);
-    margin: 36px 0 25px;
+    margin: 34px 0 23px;
     line-height: 1em;
 }
 
@@ -73,24 +73,30 @@ body {
 }
 
 #prep-time {
-    margin: 32px 0;
+    margin: 32px 0 26px;
     background-color: var(--rose-color2);
-    padding: 10px 26px;
+    padding: 10px 28px;
     border-radius: 12px;
 }
 
 #prep-time h2 {
     color: var(--rose-color1);
     font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#prep-time ul {
+    margin-top: 14px;
 }
 
 #prep-time ul, #ingredients ul, #instructions ol {
-    padding-left: 22px;
+    padding-left: 19px;
 }
 
 #prep-time li, #ingredients li, #instructions li {
-    margin-bottom: 9px;
-    padding-left: 18px;
+    margin-bottom: 6px;
+    padding-left: 20px;
 }
 
 #prep-time li::marker {
