@@ -40,6 +40,7 @@ body {
 .main-heading:not(h1) {
     color: var(--brown-color);
     font-size: 1.8em;
+    margin-top: 38px;
 }
 
 #recipe-container h1 {
@@ -49,7 +50,7 @@ body {
 }
 
 #prep-time {
-    margin: 32px 0 35px;
+    margin: 32px 0;
     background-color: var(--rose-color2);
     padding: 10px 26px;
     border-radius: 12px;
@@ -57,16 +58,16 @@ body {
 
 #prep-time h2 {
     color: var(--rose-color1);
-    font-size: 1.3em;
+    font-size: 1.25em;
 }
 
-#prep-time ul {
-    padding: 0px 26px;
+#prep-time ul, #ingredients ul {
+    padding-left: 22px;
 }
 
-#prep-time li {
+#prep-time li, #ingredients li {
     margin-bottom: 9px;
-    padding-left: 15px;
+    padding-left: 18px;
 }
 
 #prep-time li::marker {
@@ -76,4 +77,17 @@ body {
 
 .bold-text {
     font-weight: 700;
+}
+
+#ingredients li::marker {
+    color: var(--brown-color);
+    font-size: 0.8em;
+}
+
+hr {
+    border: var(--stone-color2) 1px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 32px 0;
 }
